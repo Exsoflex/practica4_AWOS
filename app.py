@@ -13,4 +13,4 @@ def consultas():
     mycursor = mydb.cursor()
     mycursor.execute("SELECT * FROM ciudades")
     myresult = mycursor.fetchall()
-    return make_response(justify(myresult))
+    return make_response(jsonify(myresult))
