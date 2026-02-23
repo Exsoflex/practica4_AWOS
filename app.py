@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, justify, make_response, session
+from flask import Flask, render_template, request, jonify, make_response, session
 app = Flask(__name__)
 
 @app.route('/ciudades')
